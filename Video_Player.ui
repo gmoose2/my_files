@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Video_Player</class>
+ <widget class="QDialog" name="Video_Player">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>918</width>
+    <height>790</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="start_pushBtn">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>740</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Start</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="browse_pushBtn">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>686</y>
+     <width>121</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Browse</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="histogram_checkBox">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>740</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Histogram</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="fileName_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>690</y>
+     <width>711</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Choose Video File ...</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
